@@ -1,0 +1,331 @@
+html{margin: 0;padding:0;}
+.bg1{background: #1f0501 }
+.bg2{background: #27ae60}
+.bg3{background: #2980b9}
+.bg4{background: #8e44ad}
+.bg5{background: #e74c3c}
+.bg6{background: #2c3e50}
+.bg7{background: #773a08}
+.bg8{background: #2b2b2b}
+.bg9{background: #f1c40f}
+.bg10{background: #f39c12}
+.bg11{background: linear-gradient(30deg, rgb(97, 43, 7), #773a08)}
+.bg12{background: linear-gradient(30deg, rgb(48, 20, 16),rgb(105, 35, 25),rgb(48, 20, 16));}
+
+
+body{
+    background:url(https://i.imgur.com/1IwIGgr.png);
+    background-repeat: repeat;
+}
+
+}
+
+.cabezal{
+      color: white;
+      padding: 1rem;
+      padding-top: 1em;
+
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+
+}
+
+.menu-icon{
+    background-color: rgb(231, 207, 180);
+    padding: 0.6em 0.6em;
+    border-radius: 50%;
+    color: rgb(48, 20, 16);
+    font-family: "Russo One";
+    font-size: 1.2em;
+    display: none;
+    box-shadow: 0px 0px 10px 7px rgba(0, 0, 0, 0.418);
+
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+.navegador ul{
+    margin: 0;
+    padding: 0;
+    margin-right: 5rem;
+    list-style: none;
+
+}
+    .navegador ul li{
+        display: inline-block;
+    }
+
+        .navegador ul li a {
+            display: block;
+            margin-right: 1rem;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            font-size: 1.4em;
+            font-family:"Russo One";
+            color: rgb(236, 231, 226);
+        }
+
+        .navegador ul li a:hover {
+            transition: 500ms ease-in-out;
+            background-color: rgb(231, 207, 180);
+            color: rgb(48, 20, 16);
+            border-radius: 50%;
+
+        }
+
+.nav-redes ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    .nav-redes ul li{
+        display: inline-block;
+        color: rgb(236, 231, 226);
+        font-size: 1.3em;
+        font-family: "Nunito";
+        margin: 0em 1em;
+    }
+
+        .nav-redes ul li a{
+            display: block;
+            color: rgb(236, 231, 226);
+            font-family: "Nunito";
+
+        }
+
+.nav-redes-responsive ul{
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    .nav-redes ul li{
+        display: inline-block;
+        color: rgb(236, 231, 226);
+        font-size: 1.3em;
+        font-family: "Nunito";
+        margin: 0em 1em;
+    }
+
+        .nav-redes ul li a{
+            display: block;
+            color: rgb(236, 231, 226);
+            font-family: "Nunito";
+
+        }
+
+
+
+
+/* hasta aca el header */
+
+/* comienza contenido */
+
+.caruso{
+    outline: ;
+}
+
+#fiebre-de-sabado{
+    margin-top: 1rem;
+    background: #fff4d1c7;
+    padding: 1em;
+
+}
+
+.galerybutton{
+    padding-top: 1em;
+
+}
+    .galerybutton button a{
+        font-size: 2.2vh;
+        text-decoration: none;
+        color: rgb(48, 20, 16);
+        font-family: "Mukta";
+    }
+
+
+/* fin carousel */
+
+.bienvenido{
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+    font-family: "Russo One";   
+}
+
+.section-sabiasque{
+    background-color: blanchedalmond;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-sabiasque h2{
+    font-family: "Mukta";
+    padding: 1em 0em 0em 0.5em;
+}
+    .section-sabiasque div{
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+        box-sizing: border-box;
+    }
+
+        .section-sabiasque div img{
+            padding: 0em 1em;
+            
+        }
+        
+            .section-sabiasque div p{
+                font-family: "Nunito";
+                box-sizing: border-box;
+            }
+
+/* Momento RESPONSIVE */
+
+
+
+
+@media screen and (max-width: 1100px){
+    .navegador ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        transition: 200ms ease-in-out;
+
+    }
+        .navegador ul li{
+            display: inline-block;
+        }
+
+            .navegador ul li a {
+                display: block;
+                margin-right: 0rem;
+                padding: 1rem 1.2rem;
+                text-decoration: none;
+                font-size: 1.2em;
+                font-family:"Russo One";
+                color: rgb(235, 219, 202);
+            }
+
+            .navegador ul li a:hover {
+                transition: 500ms ease-in-out;
+                background-color: rgb(231, 207, 180);
+                color: rgb(48, 20, 16);
+                border-radius: 50%;
+
+            }
+    .logo{
+    padding: 1em;
+    transition: 200ms ease-in-out;
+}
+
+}
+
+@media screen and (max-width: 750px){
+    .navegador{
+        width: 100%;
+    }
+    .navegador ul{
+        margin: 0;
+        padding: 0;
+        margin-right: 5rem;
+        list-style: none;
+        display: none;
+    }
+
+    .navegador ul.show{
+        display: block;
+    }
+
+        .navegador ul li{
+            display: block;
+        }
+
+            .navegador ul li a {
+                display: block;
+                margin-right: 1rem;
+                padding: 1rem 2rem;
+                text-decoration: none;
+                font-size: 1.4em;
+                font-family:"Russo One";
+                color: rgb(235, 219, 202);
+            }
+
+            .navegador ul li a:hover {
+                transition: 500ms ease-in-out;
+                background-color: rgb(231, 207, 180);
+                color: rgb(48, 20, 16);
+                border-radius: 50%;
+
+            }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+
+    }
+
+.nav-redes ul{
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    .nav-redes ul li{
+        display: inline-block;
+        color: rgb(236, 231, 226);
+        font-size: 1.3em;
+        font-family: "Nunito";
+        margin: 0em 1em;
+    }
+
+        .nav-redes ul li a{
+            display: block;
+            color: rgb(236, 231, 226);
+            font-family: "Nunito";
+
+        }
+
+
+
+.nav-redes-responsive ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    .nav-redes ul li{
+        display: inline-block;
+        color: rgb(236, 231, 226);
+        font-size: 1.6em;
+        font-family: "Nunito";
+        margin: 0em 1em;
+    }
+
+        .nav-redes ul li a{
+            display: block;
+            color: rgb(236, 231, 226);
+            font-family: "Nunito";
+
+        }
+
+
+
+}
+
+
+
+
