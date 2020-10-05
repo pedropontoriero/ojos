@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/styles2.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=PT+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400&family=Unlock&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
@@ -23,20 +24,20 @@
     <div class="container-fluid logo-nav-container">
     <a href="index2.html" class="logo"><img src="img/supereye3.png" alt=""></a>
     
-    <div class="dropdown open menu-icon">
+    <div class="dropdown open menu-icon rounded-pill">
       <button class="btn dropdown-toggle"
               type="button" id="dropdownMenu5" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
         Ver Menú
       </button>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="#!"><i class="fas fa-igloo"></i> Home</a>
+        <a class="dropdown-item" href="indexError.html"><i class="fas fa-igloo"></i> Home</a>
         <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#!"><i class="fas fa-shopping-cart"></i>Tienda</a>
+        <a class="dropdown-item" href="indexError.html"><i class="fas fa-shopping-cart"></i>Tienda</a>
         <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#!"><i class="far fa-eye"></i>Galería</a>
+        <a class="dropdown-item" href="indexError.html"><i class="far fa-eye"></i>Galería</a>
         <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#!"><i class="fas fa-eye-slash"></i>Contacto</a>
+        <a class="dropdown-item" href="indexError.html"><i class="fas fa-eye-slash"></i>Contacto</a>
       </div>
     </div>
 
@@ -44,32 +45,32 @@
     <nav class="navegador">
       <ul>
         <li><a href="index2.html"><i class="fas fa-igloo"></i> Home</a></li>
-        <li><a href="Tienda.html"><i class="fas fa-shopping-cart"></i>Tienda</a></li>
-        <li><a href="Galería.html"><i class="far fa-eye"></i>Galería</a></li>
-        <li><a href="Contacto.html"><i class="fas fa-eye-slash"></i>Contacto</a></li>
+        <li><a href="indexError.html"><i class="fas fa-shopping-cart"></i>Tienda</a></li>
+        <li><a href="indexError.html"><i class="far fa-eye"></i>Galería</a></li>
+        <li><a href="indexError.html"><i class="fas fa-eye-slash"></i>Contacto</a></li>
       </ul>
     </nav>
   </div>
   </div>
 
 
-  <div class="bg1 nav-redes">
+  <div class="bg13 nav-redes">
     <nav>
       <ul>
         <li class="text-monospace font-weight-bold">Redes  |</li>
         <li><a href=""><i class="fab fa-facebook"></i>acebook</a></li>
         <li><a href=""><i class="fab fa-twitter"></i>Twitter</a></li>
-        <li><a href=""><i class="fab fa-wikipedia-w"></i>ikipedia</a></li>
+        <li><a href="https://es.wikipedia.org/wiki/Ojo_humano"><i class="fab fa-wikipedia-w"></i>ikipedia</a></li>
       </ul>
     </nav>
 
-    <div class="bg1 nav-redes-responsive">
+    <div class="bg13 nav-redes-responsive ">
       <nav>
         <ul>
           <li class="text-monospace font-weight-bold">REDES | </li>
           <li><a href=""><i class="fab fa-facebook"></i></a></li>
           <li><a href=""><i class="fab fa-twitter"></i></a></li>
-          <li><a href=""><i class="fab fa-wikipedia-w"></i></a></li>
+          <li><a href="https://es.wikipedia.org/wiki/Ojo_humano"><i class="fab fa-wikipedia-w"></i></a></li>
         </ul>
       </nav>
 
@@ -77,9 +78,8 @@
 
   <!-- FIN header -->
 
-<section id="fiebre-de-sabado">
+<section id="fiebre-de-sabado" class="border-top border-bottom">
  
-  
   <div class="caruso container ">
       <div id="carouselFadeExampleIndicators" class="carousel slide carousel-fade " data-ride="carousel">
         <div class="carousel-inner" role="listbox">
@@ -104,9 +104,9 @@
       </div>
   
 
-    <div class="container-fluid galerybutton ">
-      <button type="button" class="btn btn-warning "><a href="Galeria">Ir a Galería</a></button>
-    </div>
+      <div class="container-fluid galerybutton ">
+        <button type="button boton-galery" class="btn btn-warning "><a href="indexError.html">Ir a Galería</a></button>
+      </div>
   </section>
 
 
@@ -118,29 +118,178 @@
 
 <!-- Breve explicacion de ojos -->
 
-<section class="container bienvenido">
-  <h1>Sea bienvenido!</h1> 
+<!-- <section class="container bienvenido">
+  <h1 class="font-weight-bolder">Sea bienvenido!</h1> 
+</section> -->
+
+<section class="container-fluid col flex-wrap border-bottom d-flex" id="section-ojos">
+  <!-- <div class="que-es">
+  <div class="section-sabiasque card-body col-xl-8 rounded-right">
+    <h2 class="card-title">¿Qué es el ojo?</h2>
+    <div class="data-ojo card-text ">  
+      <img class="img-thumbnail" src="img/ojitoHome.jpg" alt="">
+      <p>El ojo es un órgano visual que detecta la luz y la convierte en impulsos electroquímicos que viajan a través de neuronas por el nervio óptico. La célula fotorreceptora más simple de la visión consciente asocia la luz al movimiento.</p>
+    </div>
+    <footer class="blockquote-footer">Ojo Humano</footer>
+  </div>
+  </div>
+  
+  <div class="que-es2 card">
+    <div class="section-sabiasque2 card-body col-xl-8 rounded-left bg8">
+      <h2 class="card-header">El ojo humano</h2>
+    <div class="data-ojo card-body">  
+      <p class="justify card-text">Su forma es aproximadamente esférica, mide 2,5 cm de diámetro y está lleno de un gel transparente llamado humor vítreo que rellena el espacio comprendido entre la retina y el cristalino.</p>
+      <img class="img-fluid" src="img/violeta.jpg" alt="">
+    </div>
+  </div>
+  
+</div> -->
+
+<div class="card bg8 row-xl-8" id="carta-ojos1">
+  <div class="card-body">
+    <h4 class="card-title"><i class="fas fa-brain"></i>¿Qué es el ojo?</h4>
+    <div class="card-text d-flex justify-content-between">
+       <img class="img-thumbnail" src="img/ojitoHome.jpg" alt="">
+      <p class="textu1">El ojo es un órgano visual que detecta la luz y la convierte en impulsos electroquímicos que viajan a través de neuronas por el nervio óptico. La célula fotorreceptora más simple de la visión consciente asocia la luz al movimiento.
+      </p>
+    </div> 
+  </div>
+  <div class="card-footer d-flex justify-content-end">
+    <a href="indexError.html" class="card-link "> ¡Conoce más!</a>
+  </div>
+</div>
+
+<div class="card bg8 row-xl-8 justify-content-end" id="carta-ojos2">
+  <div class="card-body">
+    <h4 class="card-title"><i class="far fa-eye-slash"></i></i>El ojo humano</h4>
+    <div class="card-text d-flex justify-content-between">
+      <p class="textu2">Su forma es aproximadamente esférica, mide 2,5 cm de diámetro y está lleno de un gel transparente llamado humor vítreo que rellena el espacio comprendido entre la retina y el cristalino.
+      </p>
+      <img class="img-thumbnail" src="img/violeta.jpg" alt="">
+    </div> 
+  </div>
+  <div class="card-footer">
+    <a href="indexError.html" class="card-link "> ¡Conoce más!</a>
+  </div>
+</div>
+
 </section>
-<section class="section-sabiasque container">
-  <h2>¿Qué es el ojo?</h2>
-  <div class="data-ojo">  
-    <img class="img-fluid" src="img/ojitoHome.jpg" alt="">
-    <p>El ojo es un órgano visual que detecta la luz y la convierte en impulsos electroquímicos que viajan a través de neuronas por el nervio óptico. La célula fotorreceptora más simple de la visión consciente asocia la luz al movimiento. En organismos superiores el ojo es un sistema óptico complejo que capta la luz de los alrededores, regula su intensidad a través de un diafragma (iris), enfoca el objetivo gracias a una estructura ajustable de lentes (cristalino) para formar la imagen, que luego convierte en un conjunto de señales eléctricas que llegan al cerebro a través de rutas neuronales complejas que conectan, mediante el nervio óptico, el ojo a la corteza visual y otras áreas cerebrales.</p>
+
+<!-- momento-tienda --><div class="bg14" id="tiendita">
+    <h2><a href=""><i class="fas fa-shopping-cart"></i>Tienda Online</a></h2>
+  </div>
+
+<section class="container border-bottom" id="compraventa">
+
+  
+
+  <div class="card-deck p-4">
+    <div class="card bg13 p-3">
+      <a href="indexError.html">
+        <img class="card-img-top" src="img/ojoenventa2.jpg" alt="Card image cap">
+      </a> 
+  <div class="card-body bg7 precio border border-dark"> <i class="fas fa-dollar-sign"></i> 3.500</div>
+      <div class="card-body bg5" id="cuerpo-tienda">
+        <h4 class="card-title font-weight-bolder border-top border-bottom border-dark"><a href="indexError.html">OJOS de Uso Diario // Edicion COWBOY</a></h4>
+        <p class="card-text"> Ojos para usar todos los dias. En perfecto estado, edicion limitada COWBOY version 2008. funcionan bárbaro!! (+ info por MD) </p>
+      </div>
+    </div>
+
+    <div class="card bg13 p-3">
+      <a href="indexError.html">
+      <img class="card-img-top" src="img/ojo neon.jpg" alt="Card image cap"></a>
+  <div class="card-body bg7 precio border border-dark"><i class="fas fa-dollar-sign"></i> 700</div>
+      <div class="card-body bg5" id="cuerpo-tienda">
+        <h4 class="card-title font-weight-bolder border-top border-bottom border-dark"><a href="indexError.html"> OJOS de Uso Diario // Edicion COWBOY</a></h4>
+        <p class="card-text"> Ojos para usar todos los dias. En perfecto estado, edicion limitada COWBOY version 2008. funcionan bárbaro!! (+ info por MD) </p>
+      </div>
+    </div>
+
+    <div class="card bg13 p-3">
+      <a href="indexError.html">
+        <img class="card-img-top" src="img/AMIGO.jpg" alt="Card image cap">
+      </a>
+  <div class="card-body bg7 precio border border-dark"><i class="fas fa-dollar-sign"></i> 5.000 (permuto)</div>
+      <div class="card-body bg5" id="cuerpo-tienda">
+        <h4 class="card-title font-weight-bolder border-top border-bottom border-dark"><a href="indexError.html">vendo ojo derecho EXCELENTE ESTADO</a></h4>
+        <p class="card-text"> vendo o permuto ojo por zapatillas nike INTERESADOS ARREGLAMOS AL MD</p>
+      </div>
+    </div>
+  
+  
   </div>
 </section>
 
+<aside id="noticias">
+
+  <h1></h1>
+  
+</aside>
+
+
+<!-- un jumbotron -->
+
+<section>
+    <div class="jumbotron jumbotron-fluid align-content-center" id="jumbotrumbo">
+      <div class="container rounded-pill">
+        <h1 class="display-3">¡Contactanos!</h1>
+        <p class="lead">¡Estate atento! Próximamente aún más contenido para la comunidad de fanáticos de los ojos.</p>
+        <p>Conocenos <a href="">Aquí</a>.</p>
+      </div>
+    </div>
+  </section>
 
 
 
 
 
-<footer class="bg8">
+
+<!-- footer responsive -->
+
+
+<footer class="" id="footest">
+  <div class="d-flex justify-content-around datone align-items-center d-inline-block">
+    <div class="redesfooter">
+      <h3 class="titulos-futer">Miranos en:</h3>
+      <nav>
+        <ul>
+        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i> Facebook</li></a>
+        <li><a href="indexError.html"><i class="fab fa-instagram"></i> Instagram</li></a>
+        <li><a href="indexError.html"><i class="fab fa-twitter"></i> Twitter</li></a>
+        <li><a href="indexError.html"><i class="fab fa-wikipedia-w"></i> Wikipedia</li></a>
+        </ul>
+      </nav>
+    </div>
+    
+  
+    
+    
+
+  <div class="align-self-center">
+    <div class="contact-footer">
+      <h3 class="titulos-futer">Contacto</h3>
+        <nav>
+          <ul>
+            <li><i class="far fa-eye"></i> Pedro Pontoriero Rojas</li>
+            <li><i class="fas fa-phone"></i> Tel: 011-2280 1870</li>
+            <li><i class="fas fa-envelope"></i> pontorieropedro@gmail.com</li>
+            <li><a href="https://www.instagram.com/pep0.123/"><i class="fab fa-instagram"></i> @pep0.123</li></a>
+          </ul>
+        </nav>
+      </div>  
+    </div>
+  </div>
+  
+  <div class="copyright">
+    <p class="font-weight-bold"> Pedro Pontoriero 2020 - ©Todos los derechos reservados© </p>
+  </div>
   
 </footer>
 
 
 
-
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="jquery.fancybox.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
